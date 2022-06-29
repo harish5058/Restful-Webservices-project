@@ -193,9 +193,5 @@ public class UserController {
 	return	EntityModel.of(returnValue, Arrays.asList(userLink,userAddressesLink,selfLink));
 
 	}
-	@ResponseBody
-	@GetMapping("/getmap")
-	public String get() {
-		return "hey get";
-	}
+
 }
